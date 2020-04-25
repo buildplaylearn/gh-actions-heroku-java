@@ -1,0 +1,13 @@
+name: Continuous Integration
+
+on: [push]
+
+jobs:
+  build:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gradle check
+        run: ./gradlew clean check
+      - name: ktlint check
+        run: ./gradlew ktlintCheck
