@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class GhactionsherokuApplication
 
 fun main(args: Array<String>) {
-	runApplication<GhactionsherokuApplication>(*args)
+    runApplication<GhactionsherokuApplication>(*args)
 }
